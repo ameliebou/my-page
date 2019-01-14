@@ -1,3 +1,64 @@
-<div class="container">
-  <h1>This is my resume</h1>
+<div class="wrapper-home">
+  <div class="container">
+    <div class="container-resume">
+      <div class="resume-header">
+        <h1>Amélie Boudier | Full Stack developer</h1>
+      </div>
+
+      <div class="resume-body">
+        <div class="category" id="projects">
+          <h3>Projects</h3>
+          <div class="invisible" id="projects-details">
+            <p>Digital Pub - https://digital-pub.live</p>
+          </div>
+        </div>
+        <div class="category" id ="working-exp">
+          <h3>Working experience</h3>
+          <div class="invisible" id="working-exp-details">
+            <p>This is my awesome working experience</p>
+          </div>
+        </div>
+        <div class="category" id ="education">
+          <h3>Education</h3>
+          <div class="invisible" id="education-details">
+            <p>Check out my incredible education</p>
+          </div>
+        </div>
+        <div class="category" id ="skills">
+          <h3>Skills</h3>
+          <div class="invisible" id="skills-details">
+            <p>Those are my special skills</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script>
+
+  const projects = document.getElementById("projects")
+  const projectsDetails = document.getElementById("projects-details")
+  projects.addEventListener('click', () => {
+    projectsDetails.classList.toggle('visible')
+  });
+
+  const workingExp = document.getElementById("working-exp")
+  const workingExpDetails = document.getElementById("working-exp-details")
+  workingExp.addEventListener('click', () => {
+    workingExpDetails.classList.toggle('visible')
+  });
+
+  const education = document.getElementById("education")
+  const educationDetails = document.getElementById("education-details")
+  education.addEventListener('click', () => {
+    educationDetails.classList.toggle('visible')
+  });
+
+  const skills = document.getElementById("skills")
+  const skillsDetails = document.getElementById("skills-details")
+  skills.addEventListener('click', () => {
+    skillsDetails.classList.toggle('visible')
+  });
+
+</script>
