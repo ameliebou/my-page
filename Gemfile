@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 ruby '2.4.4'
 
 gem 'bootsnap', require: false
-gem 'bootstrap'
+gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails'
 gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.1'
