@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
   img {
     border-radius: 50%;
   }
@@ -21,6 +21,10 @@
   h2 {
     margin-bottom: 40px;
   }
+}
+
+.links-home {
+  width: 40vw;
   a {
     color: white;
     border: 1px solid white;
