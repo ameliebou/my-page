@@ -1,6 +1,6 @@
 .container-resume {
   background-color: $light-gray;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 5px 15px;
   box-shadow: 2px 2px 5px rgb(100,100,100);
 }
@@ -23,7 +23,7 @@
 }
 
 #projects-details {
-  font-family: "Arbutus Slab", "Helvetica", "sans-serif";
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   a {
     color: black;
     &:hover {
@@ -31,6 +31,10 @@
       text-decoration: none;
     }
   }
+}
+
+#skills-details > ul > li {
+  padding-top: 15px;
 }
 
 .pad-bot-10 {
@@ -43,7 +47,7 @@
 
 .row-header {
   width: 100%;
-  font-family: "Arbutus Slab", "Helvetica", "sans-serif";
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   height: 50px;
   padding-top: 15px;
   display: flex;
