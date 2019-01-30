@@ -25,6 +25,9 @@
 }
 
 .links-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 40vw;
   a {
     color: white;
@@ -35,5 +38,22 @@
       text-decoration: none;
       background-color: rgba(250,250,250,0.2);
     }
+  }
+}
+
+@media(max-width: 720px) {
+  .banner-home {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+  }
+  .banner-home-content {
+    margin-top: 15px;
+  }
+  .links-home {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
   }
 }

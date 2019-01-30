@@ -62,3 +62,14 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+@media(max-width: 720px) {
+  .navbar-wagon {
+    padding: 0 5px;
+    h2 {
+      font-size: 16px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
