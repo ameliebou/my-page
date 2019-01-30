@@ -22,14 +22,13 @@
   }
 }
 
-#projects-details {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
-  a {
-    color: black;
-    &:hover {
-      opacity: 0.5;
-      text-decoration: none;
-    }
+.category h3 {
+  i {
+    font-size: 20px;
+  }
+  transition: color 0.3s ease;
+  &:hover {
+    color: #008072;
   }
 }
 
