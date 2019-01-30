@@ -65,6 +65,20 @@
   color: #008072;
 }
 
+.bolder-title-lang {
+  font-size: 21px;
+  color: #008072;
+}
+
 .pointer {
   cursor: pointer;
+}
+
+@media(max-width: 720px) {
+  .row-header {
+    height: 70px;
+  }
+  .bolder-title {
+    padding: 0;
+  }
 }
