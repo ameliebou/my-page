@@ -31,9 +31,10 @@
     color: #008072;
   }
 }
-
-.rotate-arrow {
+.fa-arrow-alt-circle-down {
   transition: 0.5s ease;
+}
+.rotate-arrow {
   transform: rotate(180deg);
 }
 
