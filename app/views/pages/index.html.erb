@@ -1,17 +1,33 @@
 <div class="wrapper-home">
   <div class="container">
-    <div class="banner-home">
-      <%= image_tag "photo_AB.png", alt: "Amélie Boudier", width: 200 %>
-      <div class="banner-home-content">
-        <h1>Amélie Boudier</h1>
-        <h2>Full Stack developer</h2>
+    <div class="d-md-none">
+      <div class="banner-home">
+        <%= image_tag "photo_AB.png", alt: "Amélie Boudier", width: 200, class:"avatar" %>
+        <div class="banner-home-content">
+          <h1>Amélie Boudier</h1>
+          <h2>Full Stack developer</h2>
+        </div>
+      </div>
+
+      <div class="links-home">
+        <%= link_to 'My portfolio', '/portfolio' %>
+        <%= link_to 'My resume', '/resume' %>
+        <%= link_to 'About me', '/about-me' %>
       </div>
     </div>
 
-    <div class="links-home">
-      <%= link_to 'My portfolio', '/portfolio' %>
-      <%= link_to 'My resume', '/resume' %>
-      <%= link_to 'About me', '/about-me' %>
+    <div class="d-none d-md-block">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <%= image_tag "photo_AB.png", alt: "Amélie Boudier", width: 400, class:"avatar" %>
+        </div>
+
+        <div>
+          <h1>Amélie Boudier</h1>
+          <h2>Full Stack developer</h2>
+          <p>I graduated from Le Wagon in December 2018 and have been ever since continuously improving and learning new programming languages as well as working on web projects. Find out here more about me and my past experience:</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
