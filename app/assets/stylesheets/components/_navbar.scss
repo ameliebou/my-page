@@ -8,6 +8,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  a {
+    color: black;
+    transition: 0.3s ease;
+    &:hover {
+      color: #008072;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Logo */

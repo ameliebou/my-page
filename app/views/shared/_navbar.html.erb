@@ -1,17 +1,17 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+  <%= link_to root_path, class: "navbar-wagon-brand", title:'Back to home' do %>
     <%= image_tag "photo_AB.png", height: 50 %>
   <% end %>
 
-  <h2>Amélie Boudier | Full Stack Developer </h2>
+  <h2><%= link_to 'Amélie Boudier | Full Stack Developer', '/', title:'Back to home'%></h2>
 
   <!-- Dropdown list appearing on mobile only -->
   <div class="navbar-wagon-item">
     <div class="dropdown">
       <i class="fa fa-bars" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><%= link_to 'Home', '/' %></li>
+        <!-- <li><#%= link_to 'Home', '/' %></li> -->
         <li><%= link_to 'My portfolio', '/portfolio' %></li>
         <li><%= link_to 'My resume', '/resume' %></li>
         <li><%= link_to 'About me', '/about-me' %></li>
