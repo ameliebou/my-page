@@ -1,0 +1,17 @@
+.ab-link-dark {
+  color: black;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #008072;
+    text-decoration: none;
+  }
+}
+
+.ab-link-white {
+  color: white;
+  transition: color 0.5s ease;
+  &:hover {
+    color: #008072;
+    text-decoration: none;
+  }
+}
