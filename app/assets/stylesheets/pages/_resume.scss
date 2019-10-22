@@ -1,8 +1,9 @@
 .container-resume {
-  background-color: $light-gray;
-  border-radius: 5px;
-  padding: 5px 15px;
-  box-shadow: 2px 2px 5px rgb(100,100,100);
+  // background-color: $light-gray;
+  // border-radius: 5px;
+  // padding: 5px 15px;
+  // box-shadow: 2px 2px 5px rgb(100,100,100);
+  color: white;
 }
 
 .resume-header {
@@ -17,9 +18,9 @@
 .show {
   display: block;
   visibility: visible;
-  p {
-    color: black;
-  }
+  // p {
+  //   color: black;
+  // }
 }
 
 .category h3 {
@@ -68,12 +69,12 @@
 
 .bolder-title {
   font-size: 21px;
-  color: #008072;
+  color: #a1d5cf;
 }
 
 .bolder-title-lang {
   font-size: 21px;
-  color: #008072;
+  color: #a1d5cf;
 }
 
 .pointer {
