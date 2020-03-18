@@ -2,3 +2,15 @@
   border-bottom: 1px solid #a1d5cf;
 }
 
+.portfolio-tech {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-tech > div {
+  background-color: white;
+  color: $green;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 2px;
+}
